@@ -1,0 +1,125 @@
+<!-- 4. Feedback Form
+Create a customer feedback form. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Feedback Form</title>
+</head>
+<body>
+
+    <h1>Customer Feedback Form</h1>
+
+    <form>
+
+        <label for="name">Name:</label>
+        <br>
+        <input type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                reuired>
+
+        <br><br>
+
+        <p><strong>Overall Experience:</strong></p>
+        <input type="radio"
+                id="excellent"
+                name="experience"
+                value="Excellent"
+                reuired>
+            <label for="excellent">Excellent</label>
+            <br>
+
+        <input type="radio"
+                id="good"
+                name="experience"
+                value="Good"
+                required>
+            <label for="good">Good</label>
+            <br>
+
+        <input type="radio"
+                id="average"
+                name="experience"
+                value="Average"
+                required>
+            <label for="average">Average</label>
+            <br>
+
+        <input type="radio"
+                id="poor"
+                name="experience"
+                value="Poor"
+                required>
+            <label for="poor">Poor</label>
+            <br>
+
+        <!-- Services Used -->
+        <p><strong>Services Used:</strong></p>
+
+        <input type="checkbox"
+               id="support"
+               name="services"
+               value="Customer Support">
+
+        <label for="support">Customer Support</label>
+        <br>
+
+        <input type="checkbox"
+               id="delivery"
+               name="services"
+               value="Delivery">
+
+        <label for="delivery">Delivery</label>
+        <br>
+
+        <input type="checkbox"
+               id="website"
+               name="services"
+               value="Website">
+
+        <label for="website">Website</label>
+        <br>
+
+        <input type="checkbox"
+               id="payment"
+               name="services"
+               value="Payment">
+
+        <label for="payment">Payment</label>
+
+        <br><br>
+
+        <label for="comments">Comments:</label>
+        <br>
+
+        <textarea id="comments"
+                  name="comments"
+                  rows="5"
+                  cols="40"
+                  placeholder="Enter your feedback here"></textarea>
+
+        <br><br>
+
+
+        <input type="submit" value="Submit Feedback">
+
+        <input type="reset" value="Reset">
+
+
+
+        </form>
+
+</body>
+</html>
