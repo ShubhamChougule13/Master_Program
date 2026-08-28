@@ -1,0 +1,140 @@
+<!-- Level 2 – Real-World Business Forms
+6. Job Application Form
+Create a job application form for a software company.
+ -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+
+<body>
+
+    <h1>Software Company Job Application</h1>
+
+    <form>
+
+  
+        <label>Full Name:</label>
+        <input type="text" name="fullName" required>
+
+        <br><br>
+
+      
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <br><br>
+
+
+        <label>Mobile:</label>
+        <input type="tel" name="mobile" required>
+
+        <br><br>
+
+  
+        <label>Date of Birth:</label>
+        <input type="date" name="dob">
+
+        <br><br>
+
+    
+        <label>Gender:</label>
+
+        <input type="radio" name="gender" value="Male">
+        <label>Male</label>
+
+        <input type="radio" name="gender" value="Female">
+        <label>Female</label>
+
+        <input type="radio" name="gender" value="Other">
+        <label>Other</label>
+
+        <br><br>
+
+        <label>Qualification:</label>
+
+        <select name="qualification">
+            <option value="">Select Qualification</option>
+            <option>BCA</option>
+            <option>BSc Computer Science</option>
+            <option>BTech</option>
+            <option>MCA</option>
+            <option>MTech</option>
+            <option>Other</option>
+        </select>
+
+        <br><br>
+
+        <label>Experience:</label>
+
+        <select name="experience">
+            <option value="">Select Experience</option>
+            <option>Fresher</option>
+            <option>1-2 Years</option>
+            <option>3-5 Years</option>
+            <option>5+ Years</option>
+        </select>
+
+        <br><br>
+
+        <label>Skills:</label>
+
+        <input type="checkbox" name="skills" value="Java"> Java
+        <input type="checkbox" name="skills" value="Spring Boot"> Spring Boot
+        <input type="checkbox" name="skills" value="MySQL"> MySQL
+        <input type="checkbox" name="skills" value="HTML"> HTML
+        <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+
+        <br><br>
+
+        <label>Preferred Location:</label>
+
+        <select name="location">
+            <option value="">Select Location</option>
+            <option>Pune</option>
+            <option>Mumbai</option>
+            <option>Bangalore</option>
+            <option>Hyderabad</option>
+            <option>Chennai</option>
+            <option>Remote</option>
+        </select>
+
+        <br><br>
+
+        <label>Employment Type:</label>
+
+        <input type="radio" name="employmentType" value="Full Time">
+        Full Time
+
+        <input type="radio" name="employmentType" value="Part Time">
+        Part Time
+
+        <input type="radio" name="employmentType" value="Internship">
+        Internship
+
+        <br><br>
+
+        <label>Address:</label>
+        <br>
+        <textarea name="address" rows="5" cols="40"
+            placeholder="Enter your complete address"></textarea>
+
+        <br><br>
+
+        <label>Upload Resume:</label>
+        <input type="file" name="resume" accept=".pdf,.doc,.docx">
+
+        <br><br>
+
+        
+        <input type="submit" value="Submit Application">
+        <input type="reset" value="Reset Form">
+
+    </form>
+
+</body>
+</html>
