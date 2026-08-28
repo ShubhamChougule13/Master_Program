@@ -1,0 +1,233 @@
+<!-- 1. Student Registration Form
+Create a registration form for a college student.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form autocomplete="on">
+
+        <!-- Full Name -->
+        <label for="fullname">Full Name:</label>
+        <input type="text"
+               id="fullname"
+               name="fullname"
+               placeholder="Enter your full name"
+               required>
+        <br><br>
+
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="example@gmail.com"
+               required>
+        <br><br>
+
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password"
+               id="password"
+               name="password"
+               placeholder="Enter password"
+               required>
+        <br><br>
+
+
+        <!-- Mobile Number -->
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel"
+               id="mobile"
+               name="mobile"
+               placeholder="Enter mobile number"
+               required>
+        <br><br>
+
+
+        <!-- Age -->
+        <label for="age">Age:</label>
+        <input type="number"
+               id="age"
+               name="age"
+               min="16"
+               max="60"
+               placeholder="Enter your age"
+               required>
+        <br><br>
+
+
+        <!-- Gender -->
+        <label>Gender:</label>
+
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+
+        <br><br>
+
+
+        <!-- Course -->
+        <label for="course">Course:</label>
+
+        <select id="course" name="course" required>
+            <option value="">-- Select Course --</option>
+            <option value="Java Full Stack">Java Full Stack</option>
+            <option value="Python Full Stack">Python Full Stack</option>
+            <option value="Data Science">Data Science</option>
+            <option value="Web Development">Web Development</option>
+        </select>
+
+        <br><br>
+
+
+        <!-- Address -->
+        <label for="address">Address:</label>
+        <br>
+
+        <textarea id="address"
+                  name="address"
+                  rows="4"
+                  cols="30"
+                  placeholder="Enter your address"
+                  required></textarea>
+
+        <br><br>
+
+
+        <!-- Skills -->
+        <label>Skills:</label>
+
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label>
+
+        <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+
+        <input type="checkbox" id="java" name="skills" value="Java">
+        <label for="java">Java</label>
+
+        <br><br>
+
+
+        <h3>Additional HTML5 Inputs</h3>
+
+        <!-- Date -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+
+        <br><br>
+
+
+        <!-- Time -->
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="time" name="time">
+
+        <br><br>
+
+
+        <!-- Date and Time -->
+        <label for="datetime">Interview Date & Time:</label>
+        <input type="datetime-local" id="datetime" name="datetime">
+
+        <br><br>
+
+
+        <!-- Range -->
+        <label for="rating">HTML Knowledge Level:</label>
+        <input type="range"
+               id="rating"
+               name="rating"
+               min="1"
+               max="10"
+               value="5">
+
+        <br><br>
+
+
+        <!-- Color -->
+        <label for="color">Favorite Color:</label>
+        <input type="color"
+               id="color"
+               name="color"
+               value="#0000ff">
+
+        <br><br>
+
+
+        <!-- File -->
+        <label for="file">Upload Resume:</label>
+        <input type="file"
+               id="file"
+               name="file">
+
+        <br><br>
+
+
+        <!-- URL -->
+        <label for="linkedin">LinkedIn URL:</label>
+        <input type="url"
+               id="linkedin"
+               name="linkedin"
+               placeholder="https://linkedin.com/in/yourname">
+
+        <br><br>
+
+
+        <!-- Search -->
+        <label for="search">Search Course:</label>
+        <input type="search"
+               id="search"
+               name="search"
+               placeholder="Search here">
+
+        <br><br>
+
+
+        <!-- Readonly -->
+        <label for="college">College:</label>
+        <input type="text"
+               id="college"
+               name="college"
+               value="ABC College"
+               readonly>
+
+        <br><br>
+
+
+        <!-- Disabled -->
+        <label for="status">Registration Status:</label>
+        <input type="text"
+               id="status"
+               value="Registration Open"
+               disabled>
+
+        <br><br>
+
+
+        <!-- Buttons -->
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
