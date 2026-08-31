@@ -1,0 +1,161 @@
+<!-- 25. Employee Feedback Form 
+Create an HR feedback form. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Employee Feedback Form</title>
+</head>
+
+<body>
+
+    <h1>Employee Feedback Form</h1>
+
+    <form autocomplete="on">
+
+        <!-- Employee Name -->
+        <label for="employeeName">Employee Name:</label>
+        <br>
+
+        <input type="text"
+               id="employeeName"
+               name="employeeName"
+               placeholder="Enter employee name"
+               autocomplete="name">
+
+        <br><br>
+
+
+        <!-- Department -->
+        <label for="department">Department:</label>
+        <br>
+
+        <select id="department"
+                name="department"
+                required>
+
+            <option value="">-- Select Department --</option>
+            <option value="IT">IT</option>
+            <option value="HR">HR</option>
+            <option value="Finance">Finance</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Sales">Sales</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Job Satisfaction -->
+        <label for="jobSatisfaction">Job Satisfaction:</label>
+        <br>
+
+        <select id="jobSatisfaction"
+                name="jobSatisfaction"
+                required>
+
+            <option value="">-- Select Rating --</option>
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            <option value="Poor">Poor</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Work Environment -->
+        <label for="workEnvironment">Work Environment:</label>
+        <br>
+
+        <select id="workEnvironment"
+                name="workEnvironment"
+                required>
+
+            <option value="">-- Select Rating --</option>
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            <option value="Poor">Poor</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Management Support -->
+        <label for="management">Management Support:</label>
+        <br>
+
+        <select id="management"
+                name="management"
+                required>
+
+            <option value="">-- Select Rating --</option>
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            <option value="Poor">Poor</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Training Satisfaction -->
+        <label for="training">Training Satisfaction:</label>
+        <br>
+
+        <select id="training"
+                name="training"
+                required>
+
+            <option value="">-- Select Rating --</option>
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            <option value="Poor">Poor</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Suggestions -->
+        <label for="suggestions">Suggestions:</label>
+        <br>
+
+        <textarea id="suggestions"
+                  name="suggestions"
+                  rows="6"
+                  cols="45"
+                  placeholder="Enter your suggestions or feedback"></textarea>
+
+        <br><br>
+
+
+        <!-- Anonymous Feedback -->
+        <input type="checkbox"
+               id="anonymous"
+               name="anonymous"
+               value="Yes">
+
+        <label for="anonymous">
+            Submit as Anonymous Feedback
+        </label>
+
+        <br><br>
+
+
+        <!-- Submit -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
