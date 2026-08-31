@@ -1,0 +1,174 @@
+<!-- 19. Event Registration Form 
+Create an event registration form.  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Event Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Event Registration Form</h1>
+
+    <form autocomplete="on">
+
+        <!-- Participant Name -->
+        <label for="participantName">Participant Name:</label>
+        <br>
+
+        <input type="text"
+               id="participantName"
+               name="participantName"
+               placeholder="Enter participant name"
+               autocomplete="name"
+               required>
+
+        <br><br>
+
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <br>
+
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email"
+               autocomplete="email"
+               required>
+
+        <br><br>
+
+
+        <!-- Mobile -->
+        <label for="mobile">Mobile:</label>
+        <br>
+
+        <input type="tel"
+               id="mobile"
+               name="mobile"
+               placeholder="Enter your mobile number"
+               autocomplete="tel"
+               required>
+
+        <br><br>
+
+
+        <!-- Event Type -->
+        <label for="eventType">Event Type:</label>
+        <br>
+
+        <select id="eventType"
+                name="eventType"
+                required>
+
+            <option value="">-- Select Event Type --</option>
+            <option value="Workshop">Workshop</option>
+            <option value="Conference">Conference</option>
+            <option value="Seminar">Seminar</option>
+            <option value="Webinar">Webinar</option>
+            <option value="Competition">Competition</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Date -->
+        <label for="eventDate">Date:</label>
+        <br>
+
+        <input type="date"
+               id="eventDate"
+               name="eventDate"
+               required>
+
+        <br><br>
+
+
+        <!-- Number of Participants -->
+        <label for="participants">Number of Participants:</label>
+        <br>
+
+        <input type="number"
+               id="participants"
+               name="participants"
+               min="1"
+               max="100"
+               placeholder="Enter number of participants"
+               required>
+
+        <br><br>
+
+
+        <!-- Participation Type -->
+        <p><strong>Participation Type:</strong></p>
+
+        <input type="radio"
+               id="individual"
+               name="participationType"
+               value="Individual"
+               required>
+
+        <label for="individual">Individual</label>
+
+        <br>
+
+        <input type="radio"
+               id="team"
+               name="participationType"
+               value="Team">
+
+        <label for="team">Team</label>
+
+        <br>
+
+        <input type="radio"
+               id="group"
+               name="participationType"
+               value="Group">
+
+        <label for="group">Group</label>
+
+        <br><br>
+
+
+        <!-- Requirements -->
+        <label for="requirements">Requirements:</label>
+        <br>
+
+        <textarea id="requirements"
+                  name="requirements"
+                  rows="5"
+                  cols="45"
+                  placeholder="Enter any special requirements"></textarea>
+
+        <br><br>
+
+
+        <!-- Terms & Conditions -->
+        <input type="checkbox"
+               id="terms"
+               name="terms"
+               value="accepted"
+               required>
+
+        <label for="terms">
+            I agree to the Terms & Conditions
+        </label>
+
+        <br><br>
+
+
+        <!-- Register -->
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+
+</html>
