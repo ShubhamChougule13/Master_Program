@@ -1,0 +1,192 @@
+<!-- 17. Doctor Appointment Form 
+Create a doctor appointment form. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Doctor Appointment Form</title>
+</head>
+
+<body>
+
+    <h1>Doctor Appointment Form</h1>
+
+    <form autocomplete="on">
+
+        <!-- Patient Name -->
+        <label for="patientName">Patient Name:</label>
+        <br>
+
+        <input type="text"
+               id="patientName"
+               name="patientName"
+               placeholder="Enter patient name"
+               autocomplete="name"
+               required>
+
+        <br><br>
+
+
+        <!-- Age -->
+        <label for="age">Age:</label>
+        <br>
+
+        <input type="number"
+               id="age"
+               name="age"
+               min="1"
+               max="120"
+               placeholder="Enter patient age"
+               required>
+
+        <br><br>
+
+
+        <!-- Gender -->
+        <p><strong>Gender:</strong></p>
+
+        <input type="radio"
+               id="male"
+               name="gender"
+               value="Male"
+               required>
+
+        <label for="male">Male</label>
+
+        <br>
+
+        <input type="radio"
+               id="female"
+               name="gender"
+               value="Female">
+
+        <label for="female">Female</label>
+
+        <br>
+
+        <input type="radio"
+               id="other"
+               name="gender"
+               value="Other">
+
+        <label for="other">Other</label>
+
+        <br><br>
+
+
+        <!-- Mobile -->
+        <label for="mobile">Mobile:</label>
+        <br>
+
+        <input type="tel"
+               id="mobile"
+               name="mobile"
+               placeholder="Enter mobile number"
+               autocomplete="tel"
+               required>
+
+        <br><br>
+
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <br>
+
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter email address"
+               autocomplete="email"
+               required>
+
+        <br><br>
+
+
+        <!-- Department -->
+        <label for="department">Department:</label>
+        <br>
+
+        <select id="department"
+                name="department"
+                required>
+
+            <option value="">-- Select Department --</option>
+            <option value="Cardiology">Cardiology</option>
+            <option value="Dermatology">Dermatology</option>
+            <option value="Neurology">Neurology</option>
+            <option value="Orthopedics">Orthopedics</option>
+            <option value="Pediatrics">Pediatrics</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Doctor -->
+        <label for="doctor">Doctor:</label>
+        <br>
+
+        <select id="doctor"
+                name="doctor"
+                required>
+
+            <option value="">-- Select Doctor --</option>
+            <option value="Dr. Amit Sharma">Dr. Amit Sharma</option>
+            <option value="Dr. Priya Patil">Dr. Priya Patil</option>
+            <option value="Dr. Rahul Deshmukh">Dr. Rahul Deshmukh</option>
+            <option value="Dr. Neha Joshi">Dr. Neha Joshi</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Appointment Date -->
+        <label for="appointmentDate">Appointment Date:</label>
+        <br>
+
+        <input type="date"
+               id="appointmentDate"
+               name="appointmentDate"
+               required>
+
+        <br><br>
+
+
+        <!-- Appointment Time -->
+        <label for="appointmentTime">Appointment Time:</label>
+        <br>
+
+        <input type="time"
+               id="appointmentTime"
+               name="appointmentTime"
+               required>
+
+        <br><br>
+
+
+        <!-- Problem Description -->
+        <label for="problem">Problem Description:</label>
+        <br>
+
+        <textarea id="problem"
+                  name="problem"
+                  rows="5"
+                  cols="45"
+                  placeholder="Describe your problem"
+                  required></textarea>
+
+        <br><br>
+
+
+        <!-- Book Appointment -->
+        <input type="submit" value="Book Appointment">
+
+    </form>
+
+</body>
+
+</html>
