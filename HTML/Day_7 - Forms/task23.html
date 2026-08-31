@@ -1,0 +1,163 @@
+<!-- 23. IT Support Ticket Form 
+Create a support ticket form similar to an IT company's helpdesk. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IT Support Ticket Form</title>
+</head>
+
+<body>
+
+    <h1>IT Support Ticket Form</h1>
+
+    <form autocomplete="on">
+
+        <!-- Employee Name -->
+        <label for="employeeName">Employee Name:</label>
+        <br>
+
+        <input type="text"
+               id="employeeName"
+               name="employeeName"
+               placeholder="Enter employee name"
+               autocomplete="name"
+               required>
+
+        <br><br>
+
+
+        <!-- Employee ID -->
+        <label for="employeeId">Employee ID:</label>
+        <br>
+
+        <input type="text"
+               id="employeeId"
+               name="employeeId"
+               placeholder="Enter employee ID"
+               required>
+
+        <br><br>
+
+
+        <!-- Department -->
+        <label for="department">Department:</label>
+        <br>
+
+        <select id="department"
+                name="department"
+                required>
+
+            <option value="">-- Select Department --</option>
+            <option value="IT">IT</option>
+            <option value="HR">HR</option>
+            <option value="Finance">Finance</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Sales">Sales</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Issue Category -->
+        <label for="category">Issue Category:</label>
+        <br>
+
+        <select id="category"
+                name="category"
+                required>
+
+            <option value="">-- Select Issue Category --</option>
+            <option value="Hardware">Hardware</option>
+            <option value="Software">Software</option>
+            <option value="Network">Network</option>
+            <option value="Email">Email</option>
+            <option value="Login">Login</option>
+            <option value="Printer">Printer</option>
+            <option value="Other">Other</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Priority -->
+        <label for="priority">Priority:</label>
+        <br>
+
+        <select id="priority"
+                name="priority"
+                required>
+
+            <option value="">-- Select Priority --</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+            <option value="Critical">Critical</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Device Type -->
+        <label for="device">Device Type:</label>
+        <br>
+
+        <select id="device"
+                name="device"
+                required>
+
+            <option value="">-- Select Device Type --</option>
+            <option value="Laptop">Laptop</option>
+            <option value="Desktop">Desktop</option>
+            <option value="Mobile">Mobile</option>
+            <option value="Tablet">Tablet</option>
+            <option value="Printer">Printer</option>
+            <option value="Other">Other</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Issue Description -->
+        <label for="description">Issue Description:</label>
+        <br>
+
+        <textarea id="description"
+                  name="description"
+                  rows="6"
+                  cols="45"
+                  placeholder="Describe your issue in detail"
+                  required></textarea>
+
+        <br><br>
+
+
+        <!-- Contact Number -->
+        <label for="contact">Contact Number:</label>
+        <br>
+
+        <input type="tel"
+               id="contact"
+               name="contact"
+               placeholder="Enter contact number"
+               autocomplete="tel"
+               required>
+
+        <br><br>
+
+
+        <!-- Submit Ticket -->
+        <input type="submit" value="Submit Ticket">
+
+    </form>
+
+</body>
+
+</html>
