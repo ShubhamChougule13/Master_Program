@@ -1,0 +1,156 @@
+<!-- 16. Travel Booking Form 
+Create a bus/train/travel booking form.  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Travel Booking Form</title>
+</head>
+
+<body>
+
+    <h1>Travel Booking Form</h1>
+
+    <form autocomplete="on">
+
+
+        <label for="passengerName">Passenger Name:</label>
+        <br>
+
+        <input type="text"
+               id="passengerName"
+               name="passengerName"
+               placeholder="Enter passenger name"
+               autocomplete="name"
+               required>
+
+        <br><br>
+
+
+        <label for="from">From:</label>
+        <br>
+
+        <input type="text"
+               id="from"
+               name="from"
+               placeholder="Enter departure location"
+               required>
+
+        <br><br>
+
+
+   
+        <label for="to">To:</label>
+        <br>
+
+        <input type="text"
+               id="to"
+               name="to"
+               placeholder="Enter destination"
+               required>
+
+        <br><br>
+
+
+        <!-- Journey Date -->
+        <label for="journeyDate">Journey Date:</label>
+        <br>
+
+        <input type="date"
+               id="journeyDate"
+               name="journeyDate"
+               required>
+
+        <br><br>
+
+        <label for="passengers">Number of Passengers:</label>
+        <br>
+
+        <input type="number"
+               id="passengers"
+               name="passengers"
+               min="1"
+               max="10"
+               placeholder="Enter number of passengers"
+               required>
+
+        <br><br>
+
+
+  
+        <p><strong>Gender:</strong></p>
+
+        <input type="radio"
+               id="male"
+               name="gender"
+               value="Male"
+               required>
+
+        <label for="male">Male</label>
+
+        <br>
+
+        <input type="radio"
+               id="female"
+               name="gender"
+               value="Female">
+
+        <label for="female">Female</label>
+
+        <br>
+
+        <input type="radio"
+               id="other"
+               name="gender"
+               value="Other">
+
+        <label for="other">Other</label>
+
+        <br><br>
+
+        <label for="seat">Seat Preference:</label>
+        <br>
+
+        <select id="seat"
+                name="seat"
+                required>
+
+            <option value="">-- Select Seat Preference --</option>
+            <option value="Window">Window</option>
+            <option value="Aisle">Aisle</option>
+            <option value="Middle">Middle</option>
+
+        </select>
+
+        <br><br>
+
+
+        <label for="travelClass">Travel Class:</label>
+        <br>
+
+        <select id="travelClass"
+                name="travelClass"
+                required>
+
+            <option value="">-- Select Travel Class --</option>
+            <option value="Economy">Economy</option>
+            <option value="AC">AC</option>
+            <option value="Sleeper">Sleeper</option>
+            <option value="First Class">First Class</option>
+
+        </select>
+
+        <br><br>
+
+
+  
+        <input type="submit" value="Submit Booking">
+
+    </form>
+
+</body>
+
+</html>
