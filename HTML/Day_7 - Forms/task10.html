@@ -1,0 +1,197 @@
+<!-- 10. Insurance Registration Form 
+Create an insurance enquiry form. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Insurance Enquiry Form</title>
+</head>
+
+<body>
+
+    <h1>Insurance Enquiry Form</h1>
+
+    <form autocomplete="on">
+
+       
+        <label for="customerName">Customer Name:</label>
+        <br>
+
+        <input type="text"
+               id="customerName"
+               name="customerName"
+               placeholder="Enter your name"
+               autocomplete="name"
+               required>
+
+        <br><br>
+
+
+       
+        <label for="age">Age:</label>
+        <br>
+
+        <input type="number"
+               id="age"
+               name="age"
+               min="18"
+               max="100"
+               placeholder="Enter your age"
+               required>
+
+        <br><br>
+
+
+   
+        <p><strong>Gender:</strong></p>
+
+        <input type="radio"
+               id="male"
+               name="gender"
+               value="Male"
+               required>
+
+        <label for="male">Male</label>
+
+        <br>
+
+        <input type="radio"
+               id="female"
+               name="gender"
+               value="Female">
+
+        <label for="female">Female</label>
+
+        <br>
+
+        <input type="radio"
+               id="other"
+               name="gender"
+               value="Other">
+
+        <label for="other">Other</label>
+
+        <br><br>
+
+
+     
+        <label for="email">Email:</label>
+        <br>
+
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email"
+               autocomplete="email"
+               required>
+
+        <br><br>
+
+
+  
+        <label for="mobile">Mobile:</label>
+        <br>
+
+        <input type="tel"
+               id="mobile"
+               name="mobile"
+               placeholder="Enter your mobile number"
+               autocomplete="tel"
+               required>
+
+        <br><br>
+
+
+   
+        <p><strong>Insurance Type:</strong></p>
+
+        <input type="radio"
+               id="health"
+               name="insuranceType"
+               value="Health"
+               required>
+
+        <label for="health">Health</label>
+
+        <br>
+
+        <input type="radio"
+               id="life"
+               name="insuranceType"
+               value="Life">
+
+        <label for="life">Life</label>
+
+        <br>
+
+        <input type="radio"
+               id="vehicle"
+               name="insuranceType"
+               value="Vehicle">
+
+        <label for="vehicle">Vehicle</label>
+
+        <br>
+
+        <input type="radio"
+               id="travel"
+               name="insuranceType"
+               value="Travel">
+
+        <label for="travel">Travel</label>
+
+        <br><br>
+
+
+
+        <label for="occupation">Occupation:</label>
+        <br>
+
+        <input type="text"
+               id="occupation"
+               name="occupation"
+               placeholder="Enter your occupation"
+               required>
+
+        <br><br>
+
+
+     
+        <label for="city">City:</label>
+        <br>
+
+        <input type="text"
+               id="city"
+               name="city"
+               placeholder="Enter your city"
+               autocomplete="address-level2"
+               required>
+
+        <br><br>
+
+
+
+        <label for="message">Message:</label>
+        <br>
+
+        <textarea id="message"
+                  name="message"
+                  rows="5"
+                  cols="40"
+                  placeholder="Enter your enquiry or message"
+                  required></textarea>
+
+        <br><br>
+
+
+    
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
