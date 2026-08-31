@@ -1,0 +1,152 @@
+<!-- 12. Product Review Form 
+Create a product review form. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Review Form</title>
+</head>
+
+<body>
+
+    <h1>Product Review Form</h1>
+
+    <form autocomplete="on">
+
+
+        <label for="customerName">Customer Name:</label>
+        <br>
+
+        <input type="text"
+               id="customerName"
+               name="customerName"
+               placeholder="Enter your name"
+               autocomplete="name"
+               required>
+
+        <br><br>
+
+
+
+        <label for="email">Email:</label>
+        <br>
+
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email"
+               autocomplete="email"
+               required>
+
+        <br><br>
+
+
+
+        <label for="productName">Product Name:</label>
+        <br>
+
+        <input type="text"
+               id="productName"
+               name="productName"
+               placeholder="Enter product name"
+               required>
+
+        <br><br>
+
+
+
+        <p><strong>Rating:</strong></p>
+
+        <input type="radio"
+               id="oneStar"
+               name="rating"
+               value="1"
+               required>
+
+        <label for="oneStar">1 Star</label>
+
+        <br>
+
+        <input type="radio"
+               id="twoStars"
+               name="rating"
+               value="2">
+
+        <label for="twoStars">2 Stars</label>
+
+        <br>
+
+        <input type="radio"
+               id="threeStars"
+               name="rating"
+               value="3">
+
+        <label for="threeStars">3 Stars</label>
+
+        <br>
+
+        <input type="radio"
+               id="fourStars"
+               name="rating"
+               value="4">
+
+        <label for="fourStars">4 Stars</label>
+
+        <br>
+
+        <input type="radio"
+               id="fiveStars"
+               name="rating"
+               value="5">
+
+        <label for="fiveStars">5 Stars</label>
+
+        <br><br>
+
+
+        <label for="review">Review:</label>
+        <br>
+
+        <textarea id="review"
+                  name="review"
+                  rows="6"
+                  cols="45"
+                  placeholder="Write your review here..."
+                  required></textarea>
+
+        <br><br>
+
+
+    
+        <p><strong>Recommend Product?</strong></p>
+
+        <input type="radio"
+               id="yes"
+               name="recommend"
+               value="Yes"
+               required>
+
+        <label for="yes">Yes</label>
+
+        <br>
+
+        <input type="radio"
+               id="no"
+               name="recommend"
+               value="No">
+
+        <label for="no">No</label>
+
+        <br><br>
+
+
+        <input type="submit" value="Submit Review">
+
+    </form>
+
+</body>
+
+</html>
