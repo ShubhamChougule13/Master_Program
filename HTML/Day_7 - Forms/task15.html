@@ -1,0 +1,158 @@
+<!-- Level 4 – Service-Based Forms 
+15. Hotel Booking Form 
+Create a hotel booking form. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hotel Booking Form</title>
+</head>
+
+<body>
+
+    <h1>Hotel Booking Form</h1>
+
+    <form autocomplete="on">
+
+  
+        <label for="guestName">Guest Name:</label>
+        <br>
+
+        <input type="text"
+               id="guestName"
+               name="guestName"
+               placeholder="Enter guest name"
+               autocomplete="name"
+               required>
+
+        <br><br>
+
+
+   
+        <label for="email">Email:</label>
+        <br>
+
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email"
+               autocomplete="email"
+               required>
+
+        <br><br>
+
+
+
+        <label for="mobile">Mobile:</label>
+        <br>
+
+        <input type="tel"
+               id="mobile"
+               name="mobile"
+               placeholder="Enter your mobile number"
+               autocomplete="tel"
+               required>
+
+        <br><br>
+
+
+
+        <label for="checkin">Check-in Date:</label>
+        <br>
+
+        <input type="date"
+               id="checkin"
+               name="checkin"
+               required>
+
+        <br><br>
+
+
+
+        <label for="checkout">Check-out Date:</label>
+        <br>
+
+        <input type="date"
+               id="checkout"
+               name="checkout"
+               required>
+
+        <br><br>
+
+
+
+        <label for="guests">Number of Guests:</label>
+        <br>
+
+        <input type="number"
+               id="guests"
+               name="guests"
+               min="1"
+               max="10"
+               placeholder="Enter number of guests"
+               required>
+
+        <br><br>
+
+
+
+        <label for="roomType">Room Type:</label>
+        <br>
+
+        <select id="roomType"
+                name="roomType"
+                required>
+
+            <option value="">-- Select Room Type --</option>
+            <option value="Single">Single Room</option>
+            <option value="Double">Double Room</option>
+            <option value="Deluxe">Deluxe Room</option>
+            <option value="Suite">Suite</option>
+
+        </select>
+
+        <br><br>
+
+
+
+        <label for="meal">Meal Preference:</label>
+        <br>
+
+        <select id="meal"
+                name="meal"
+                required>
+
+            <option value="">-- Select Meal Preference --</option>
+            <option value="Breakfast">Breakfast</option>
+            <option value="Breakfast-Lunch">Breakfast + Lunch</option>
+            <option value="Breakfast-Dinner">Breakfast + Dinner</option>
+            <option value="All Meals">All Meals</option>
+            <option value="No Meals">No Meals</option>
+
+        </select>
+
+        <br><br>
+
+
+        <label for="requests">Special Requests:</label>
+        <br>
+
+        <textarea id="requests"
+                  name="requests"
+                  rows="5"
+                  cols="40"
+                  placeholder="Enter any special requests"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Book Now">
+
+    </form>
+
+</body>
+
+</html>
