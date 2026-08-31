@@ -1,0 +1,166 @@
+<!-- 22. Complaint Registration Form 
+Create a customer complaint form. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Complaint Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Complaint Registration Form</h1>
+
+    <form autocomplete="on">
+
+        <!-- Customer Name -->
+        <label for="customerName">Customer Name:</label>
+        <br>
+
+        <input type="text"
+               id="customerName"
+               name="customerName"
+               placeholder="Enter customer name"
+               autocomplete="name"
+               required>
+
+        <br><br>
+
+
+        <!-- Customer ID -->
+        <label for="customerId">Customer ID:</label>
+        <br>
+
+        <input type="text"
+               id="customerId"
+               name="customerId"
+               placeholder="Enter customer ID"
+               required>
+
+        <br><br>
+
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <br>
+
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email"
+               autocomplete="email"
+               required>
+
+        <br><br>
+
+
+        <!-- Mobile -->
+        <label for="mobile">Mobile:</label>
+        <br>
+
+        <input type="tel"
+               id="mobile"
+               name="mobile"
+               placeholder="Enter your mobile number"
+               autocomplete="tel"
+               required>
+
+        <br><br>
+
+
+        <!-- Complaint Category -->
+        <label for="category">Complaint Category:</label>
+        <br>
+
+        <select id="category"
+                name="category"
+                required>
+
+            <option value="">-- Select Category --</option>
+            <option value="Product">Product</option>
+            <option value="Delivery">Delivery</option>
+            <option value="Payment">Payment</option>
+            <option value="Service">Service</option>
+            <option value="Technical">Technical</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Priority -->
+        <label for="priority">Priority:</label>
+        <br>
+
+        <select id="priority"
+                name="priority"
+                required>
+
+            <option value="">-- Select Priority --</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+            <option value="Critical">Critical</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Complaint Description -->
+        <label for="description">Complaint Description:</label>
+        <br>
+
+        <textarea id="description"
+                  name="description"
+                  rows="6"
+                  cols="45"
+                  placeholder="Describe your complaint in detail"
+                  required></textarea>
+
+        <br><br>
+
+
+        <!-- Preferred Contact Method -->
+        <p><strong>Preferred Contact Method:</strong></p>
+
+        <input type="radio"
+               id="emailContact"
+               name="contactMethod"
+               value="Email"
+               required>
+
+        <label for="emailContact">Email</label>
+
+        <br>
+
+        <input type="radio"
+               id="phoneContact"
+               name="contactMethod"
+               value="Phone">
+
+        <label for="phoneContact">Phone</label>
+
+        <br>
+
+        <input type="radio"
+               id="smsContact"
+               name="contactMethod"
+               value="SMS">
+
+        <label for="smsContact">SMS</label>
+
+        <br><br>
+
+
+        <!-- Submit Complaint -->
+        <input type="submit" value="Submit Complaint">
+
+    </form>
+
+</body>
+
+</html>
