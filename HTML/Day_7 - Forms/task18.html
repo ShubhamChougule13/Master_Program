@@ -1,0 +1,139 @@
+<!-- 18. Restaurant Table Booking Form 
+Create an online restaurant reservation form. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Restaurant Table Booking</title>
+</head>
+
+<body>
+
+    <h1>Restaurant Table Booking Form</h1>
+
+    <form autocomplete="on">
+
+        <!-- Customer Name -->
+        <label for="customerName">Customer Name:</label>
+        <br>
+
+        <input type="text"
+               id="customerName"
+               name="customerName"
+               placeholder="Enter your name"
+               autocomplete="name"
+               required>
+
+        <br><br>
+
+
+        <!-- Mobile -->
+        <label for="mobile">Mobile:</label>
+        <br>
+
+        <input type="tel"
+               id="mobile"
+               name="mobile"
+               placeholder="Enter your mobile number"
+               autocomplete="tel"
+               required>
+
+        <br><br>
+
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <br>
+
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email"
+               autocomplete="email"
+               required>
+
+        <br><br>
+
+
+        <!-- Date -->
+        <label for="date">Date:</label>
+        <br>
+
+        <input type="date"
+               id="date"
+               name="date"
+               required>
+
+        <br><br>
+
+
+        <!-- Time -->
+        <label for="time">Time:</label>
+        <br>
+
+        <input type="time"
+               id="time"
+               name="time"
+               required>
+
+        <br><br>
+
+
+        <!-- Number of Guests -->
+        <label for="guests">Number of Guests:</label>
+        <br>
+
+        <input type="number"
+               id="guests"
+               name="guests"
+               min="1"
+               max="20"
+               placeholder="Enter number of guests"
+               required>
+
+        <br><br>
+
+
+        <!-- Seating Preference -->
+        <label for="seating">Seating Preference:</label>
+        <br>
+
+        <select id="seating"
+                name="seating"
+                required>
+
+            <option value="">-- Select Seating Preference --</option>
+            <option value="Indoor">Indoor</option>
+            <option value="Outdoor">Outdoor</option>
+            <option value="Window">Window</option>
+            <option value="Private">Private</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Special Request -->
+        <label for="request">Special Request:</label>
+        <br>
+
+        <textarea id="request"
+                  name="request"
+                  rows="5"
+                  cols="45"
+                  placeholder="Enter any special request"></textarea>
+
+        <br><br>
+
+
+        <!-- Reserve Table -->
+        <input type="submit" value="Reserve Table">
+
+    </form>
+
+</body>
+
+</html>
