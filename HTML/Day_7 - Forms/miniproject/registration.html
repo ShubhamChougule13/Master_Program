@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>E-Commerce Registration</title>
+</head>
+
+<body>
+
+    <h1>E-Commerce Registration</h1>
+
+
+     <nav>
+        <a href="registration.html">Registration</a> |
+        <a href="login.html">Login</a> |
+        <a href="product-search.html">Product Search</a> |
+        <a href="shipping.html">Shipping</a> |
+        <a href="payment.html">Payment</a> |
+        <a href="feedback.html">Feedback</a>
+    </nav>
+
+    <hr>
+
+
+    <form autocomplete="on">
+
+        <!-- Name -->
+        <label for="name">Name:</label>
+        <br>
+
+        <input type="text"
+               id="name"
+               name="name"
+               placeholder="Enter your name"
+               autocomplete="name"
+               required>
+
+        <br><br>
+
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <br>
+
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email"
+               autocomplete="email"
+               required>
+
+        <br><br>
+
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <br>
+
+        <input type="password"
+               id="password"
+               name="password"
+               placeholder="Create a password"
+               autocomplete="new-password"
+               required>
+
+        <br><br>
+
+
+        <!-- Mobile -->
+        <label for="mobile">Mobile:</label>
+        <br>
+
+        <input type="tel"
+               id="mobile"
+               name="mobile"
+               placeholder="Enter mobile number"
+               autocomplete="tel"
+               required>
+
+        <br><br>
+
+
+        <!-- Gender -->
+        <p><strong>Gender:</strong></p>
+
+        <input type="radio"
+               id="male"
+               name="gender"
+               value="Male"
+               required>
+
+        <label for="male">Male</label>
+
+        <br>
+
+        <input type="radio"
+               id="female"
+               name="gender"
+               value="Female">
+
+        <label for="female">Female</label>
+
+        <br>
+
+        <input type="radio"
+               id="other"
+               name="gender"
+               value="Other">
+
+        <label for="other">Other</label>
+
+        <br><br>
+
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label>
+        <br>
+
+        <input type="date"
+               id="dob"
+               name="dob"
+               required>
+
+        <br><br>
+
+
+        <!-- Register -->
+        <input type="submit" value="Register">
+
+    </form>
+
+    <br>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Payment</title>
+</head>
+
+<body>
+
+    <h1>Payment</h1>
+
+     <nav>
+        <a href="registration.html">Registration</a> |
+        <a href="login.html">Login</a> |
+        <a href="product-search.html">Product Search</a> |
+        <a href="shipping.html">Shipping</a> |
+        <a href="payment.html">Payment</a> |
+        <a href="feedback.html">Feedback</a>
+    </nav>
+
+    <hr>
+
+
+    <form>
+
+        <!-- Payment Method -->
+        <p><strong>Payment Method:</strong></p>
+
+        <input type="radio"
+               id="card"
+               name="paymentMethod"
+               value="Card"
+               required>
+
+        <label for="card">Credit / Debit Card</label>
+
+        <br>
+
+        <input type="radio"
+               id="upi"
+               name="paymentMethod"
+               value="UPI">
+
+        <label for="upi">UPI</label>
+
+        <br>
+
+        <input type="radio"
+               id="cod"
+               name="paymentMethod"
+               value="COD">
+
+        <label for="cod">Cash on Delivery</label>
+
+        <br><br>
+
+
+        <!-- Card / UPI Details -->
+        <label for="details">Card / UPI Details:</label>
+        <br>
+
+        <input type="text"
+               id="details"
+               name="details"
+               placeholder="Enter card number or UPI ID">
+
+        <br><br>
+
+
+        <!-- Terms -->
+        <input type="checkbox"
+               id="terms"
+               name="terms"
+               required>
+
+        <label for="terms">
+            I agree to the Terms & Conditions
+        </label>
+
+        <br><br>
+
+
+        <!-- Place Order -->
+        <input type="submit" value="Place Order">
+
+    </form>
+
+    <br>
+
+
+</body>
+
+</html>
