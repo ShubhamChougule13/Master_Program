@@ -1,0 +1,225 @@
+<!-- 9. Bank Account Opening Form 
+Create a basic bank account opening form. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bank Account Opening Form</title>
+</head>
+
+<body>
+
+    <h1>Bank Account Opening Form</h1>
+
+    <form autocomplete="on">
+
+        <!-- Applicant Name -->
+        <label for="applicantName">Applicant Name:</label>
+        <br>
+
+        <input type="text"
+               id="applicantName"
+               name="applicantName"
+               placeholder="Enter applicant name"
+               autocomplete="name"
+               required>
+
+        <br><br>
+
+
+    
+        <label for="dob">Date of Birth:</label>
+        <br>
+
+        <input type="date"
+               id="dob"
+               name="dob"
+               required>
+
+        <br><br>
+
+
+  
+        <p><strong>Gender:</strong></p>
+
+        <input type="radio"
+               id="male"
+               name="gender"
+               value="Male"
+               required>
+
+        <label for="male">Male</label>
+
+        <br>
+
+        <input type="radio"
+               id="female"
+               name="gender"
+               value="Female">
+
+        <label for="female">Female</label>
+
+        <br>
+
+        <input type="radio"
+               id="other"
+               name="gender"
+               value="Other">
+
+        <label for="other">Other</label>
+
+        <br><br>
+
+
+     
+        <p><strong>Account Type:</strong></p>
+
+        <input type="radio"
+               id="savings"
+               name="accountType"
+               value="Savings"
+               required>
+
+        <label for="savings">Savings</label>
+
+        <br>
+
+        <input type="radio"
+               id="current"
+               name="accountType"
+               value="Current">
+
+        <label for="current">Current</label>
+
+        <br><br>
+
+
+      
+        <label for="mobile">Mobile Number:</label>
+        <br>
+
+        <input type="tel"
+               id="mobile"
+               name="mobile"
+               placeholder="Enter mobile number"
+               autocomplete="tel"
+               required>
+
+        <br><br>
+
+
+      
+        <label for="email">Email:</label>
+        <br>
+
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter email address"
+               autocomplete="email"
+               required>
+
+        <br><br>
+
+
+    
+        <label for="address">Address:</label>
+        <br>
+
+        <textarea id="address"
+                  name="address"
+                  rows="4"
+                  cols="40"
+                  placeholder="Enter your complete address"
+                  autocomplete="street-address"
+                  required></textarea>
+
+        <br><br>
+
+
+    
+        <label for="city">City:</label>
+        <br>
+
+        <input type="text"
+               id="city"
+               name="city"
+               placeholder="Enter your city"
+               autocomplete="address-level2"
+               required>
+
+        <br><br>
+
+
+
+        <label for="state">State:</label>
+        <br>
+
+        <select id="state"
+                name="state"
+                autocomplete="address-level1"
+                required>
+
+            <option value="">-- Select State --</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+
+        </select>
+
+        <br><br>
+
+
+   
+        <label for="occupation">Occupation:</label>
+        <br>
+
+        <input type="text"
+               id="occupation"
+               name="occupation"
+               placeholder="Enter your occupation"
+               required>
+
+        <br><br>
+
+
+
+        <label for="pan">PAN Number:</label>
+        <br>
+
+        <input type="text"
+               id="pan"
+               name="pan"
+               placeholder="Enter PAN number"
+               maxlength="10"
+               required>
+
+        <br><br>
+
+
+   
+        <input type="checkbox"
+               id="terms"
+               name="terms"
+               value="accepted"
+               required>
+
+        <label for="terms">
+            I agree to the Terms & Conditions
+        </label>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
