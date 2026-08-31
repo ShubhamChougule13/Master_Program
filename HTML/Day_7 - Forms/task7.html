@@ -1,0 +1,203 @@
+<!-- 7. Employee Registration Form 
+Create an employee onboarding form. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Employee Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Employee Registration Form</h1>
+
+    <form>
+
+        <label for="employeeId">Employee ID:</label>
+        <br>
+
+        <input type="text"
+               id="employeeId"
+               name="employeeId"
+               placeholder="Enter employee ID"
+               required>
+
+        <br><br>
+
+
+
+        <label for="employeeName">Employee Name:</label>
+        <br>
+
+        <input type="text"
+               id="employeeName"
+               name="employeeName"
+               placeholder="Enter employee name"
+               required>
+
+        <br><br>
+
+
+
+        <label for="email">Email:</label>
+        <br>
+
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter employee email"
+               required>
+
+        <br><br>
+
+
+        
+        <label for="password">Password:</label>
+        <br>
+
+        <input type="password"
+               id="password"
+               name="password"
+               placeholder="Enter password"
+               required>
+
+        <br><br>
+
+
+
+        <label for="department">Department:</label>
+        <br>
+
+        <select id="department" name="department" required>
+            <option value="">-- Select Department --</option>
+            <option value="IT">IT</option>
+            <option value="HR">HR</option>
+            <option value="Finance">Finance</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Sales">Sales</option>
+        </select>
+
+        <br><br>
+
+
+
+        <label for="designation">Designation:</label>
+        <br>
+
+        <input type="text"
+               id="designation"
+               name="designation"
+               placeholder="Enter designation"
+               required>
+
+        <br><br>
+
+
+
+        <p><strong>Gender:</strong></p>
+
+        <input type="radio"
+               id="male"
+               name="gender"
+               value="Male"
+               required>
+
+        <label for="male">Male</label>
+
+        <br>
+
+        <input type="radio"
+               id="female"
+               name="gender"
+               value="Female">
+
+        <label for="female">Female</label>
+
+        <br>
+
+        <input type="radio"
+               id="other"
+               name="gender"
+               value="Other">
+
+        <label for="other">Other</label>
+
+        <br><br>
+
+
+  
+        <p><strong>Skills:</strong></p>
+
+        <input type="checkbox"
+               id="java"
+               name="skills"
+               value="Java">
+
+        <label for="java">Java</label>
+
+        <br>
+
+        <input type="checkbox"
+               id="html"
+               name="skills"
+               value="HTML">
+
+        <label for="html">HTML</label>
+
+        <br>
+
+        <input type="checkbox"
+               id="css"
+               name="skills"
+               value="CSS">
+
+        <label for="css">CSS</label>
+
+        <br>
+
+        <input type="checkbox"
+               id="javascript"
+               name="skills"
+               value="JavaScript">
+
+        <label for="javascript">JavaScript</label>
+
+        <br><br>
+
+
+        <label for="experience">Experience (Years):</label>
+        <br>
+
+        <input type="number"
+               id="experience"
+               name="experience"
+               min="0"
+               max="40"
+               placeholder="Enter years of experience"
+               required>
+
+        <br><br>
+
+
+        <label for="address">Address:</label>
+        <br>
+
+        <textarea id="address"
+                  name="address"
+                  rows="5"
+                  cols="40"
+                  placeholder="Enter employee address"
+                  required></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Register Employee">
+
+    </form>
+
+</body>
+
+</html>
