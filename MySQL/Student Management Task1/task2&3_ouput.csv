@@ -1,0 +1,11 @@
+| Field          | Type          | Null | Key | Default | Extra |
+| -------------- | ------------- | ---- | --- | ------- | ----- |
+| student_id     | int           | YES  |     | NULL    |       |
+| name           | varchar(100)  | YES  |     | NULL    |       |
+| age            | int           | YES  |     | NULL    |       |
+| course         | varchar(50)   | YES  |     | NULL    |       |
+| fees           | decimal(10,2) | YES  |     | NULL    |       |
+| email          | varchar(100)  | YES  |     | NULL    |       |
+| admission_date | date          | YES  |     | NULL    |       |
+| is_active      | tinyint(1)    | YES  |     | NULL    |       |
+|                |               |      |     |         |       |
