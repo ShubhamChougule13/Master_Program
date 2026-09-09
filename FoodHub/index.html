@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodHub - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Bootstrap Navbar with Hamburger Menu -->
+ <!-- Bootstrap Navbar with Centered Links -->
+  <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm sticky-top">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand" href="index.html">FoodHub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navContent">
+        <!-- Changed me-auto to mx-auto here -->
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active fw-bold" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="restaurants.html">Restaurants</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="offers.html">Offers</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="d-flex gap-2">
+          <a href="login.html" class="btn btn-outline-danger btn-sm px-3">Login</a>
+          <a href="register.html" class="btn btn-danger btn-sm px-3">Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-box">
+    <h1>Delicious Food Delivered to Your Doorstep</h1>
+    <p>Find the best meals from your local neighborhood restaurants.</p>
+    <div class="search-container">
+      <input type="text" class="form-control" placeholder="Search for restaurant or dish...">
+      <button class="btn btn-danger">Search</button>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="content-area">
+    <h2 class="section-heading">Food Categories</h2>
+    <div class="card-wrapper">
+      <div class="cat-card">
+        <img src="/images/pizza.jpg" alt="Pizza">
+        <h6>Pizza</h6>
+      </div>
+      <div class="cat-card">
+        <img src="/images/burger.jpg" alt="Burger">
+        <h6>Burger</h6>
+      </div>
+      <div class="cat-card">
+        <img src="/images/biryani.jpg" alt="Biryani">
+        <h6>Biryani</h6>
+      </div>
+      <div class="cat-card">
+        <img src="/images/chinese.jpg" alt="Chinese">
+        <h6>Chinese</h6>
+      </div>
+      <div class="cat-card">
+        <img src="/images/southindian.jpg" alt="South Indian">
+        <h6>South Indian</h6>
+      </div>
+      <div class="cat-card">
+        <img src="/images/desserts.jpg" alt="Desserts">
+        <h6>Desserts</h6>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Restaurants using Bootstrap Cards -->
+  <section class="content-area">
+    <h2 class="section-heading">Popular Restaurants</h2>
+    <div class="card-wrapper">
+      <div class="card item-card-3">
+        <img src="/images/spicegarden.jpg" class="card-img-top" alt="Spice Garden">
+        <div class="card-body">
+          <h5 class="card-title">Spice Garden</h5>
+          <p class="card-text text-muted small mb-1">North Indian, Mughlai</p>
+          <p class="card-text mb-3">⭐ 4.5 | 30 mins</p>
+          <a href="menu.html" class="btn btn-danger btn-sm w-100">View Menu</a>
+        </div>
+      </div>
+      <div class="card item-card-3">
+        <img src="/images/pizzacorner.jpg" class="card-img-top" alt="Pizza Corner">
+        <div class="card-body">
+          <h5 class="card-title">Pizza Corner</h5>
+          <p class="card-text text-muted small mb-1">Italian, Fast Food</p>
+          <p class="card-text mb-3">⭐ 4.3 | 25 mins</p>
+          <a href="menu.html" class="btn btn-danger btn-sm w-100">View Menu</a>
+        </div>
+      </div>
+      <div class="card item-card-3">
+        <img src="/images/royalbiryani.jpg" class="card-img-top" alt="Royal Biryani">
+        <div class="card-body">
+          <h5 class="card-title">Royal Biryani</h5>
+          <p class="card-text text-muted small mb-1">Hyderabadi, Indian</p>
+          <p class="card-text mb-3">⭐ 4.7 | 35 mins</p>
+          <a href="menu.html" class="btn btn-danger btn-sm w-100">View Menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promo Box -->
+  <section class="content-area">
+    <div class="promo-box">
+      <h2>Get 30% OFF on Your First Order!</h2>
+      <p>Use Coupon Code: <span class="badge bg-dark px-2 py-1">WELCOME30</span></p>
+      <a href="offers.html" class="btn btn-light text-danger fw-bold mt-2">Order Now</a>
+    </div>
+  </section>
+
+  <footer class="custom-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>FoodHub</h4>
+        <p class="small">Fresh and hot food delivered right to your home in 30 minutes.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="restaurants.html">Restaurants</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="offers.html">Offers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p class="small mb-1">support@foodhub.com</p>
+        <p class="small">+91 9890032325</p>
+      </div>
+    </div>
+    <div class="copyright-text">&copy; 2026 FoodHub. All Rights Reserved.</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

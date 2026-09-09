@@ -1,0 +1,257 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #333333;
+}
+
+/* Bootstrap Navbar brand custom color */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+  color: #ff4757 !important;
+}
+
+/* Custom Hero Section */
+.hero-box {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+              url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1000') center/cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.hero-box h1 {
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
+.hero-box p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0px auto;
+  gap: 8px;
+}
+
+/* Container wrapper with px & % */
+.content-area {
+  width: 90%;
+  max-width: 1150px;
+  margin: 0px auto;
+  padding: 30px 0px;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+/* Flexbox card container */
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Category cards */
+.cat-card {
+  width: 14%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 15px 5px;
+}
+
+.cat-card img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+/* Bootstrap Card Wrappers (3 items per row on desktop) */
+.item-card-3 {
+  width: 31%;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+}
+
+.item-card-3 img {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* 4 items per row (About & Stats) */
+.item-card-4 {
+  width: 23%;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Custom banner */
+.promo-box {
+  background-color: #ff4757;
+  color: #ffffff;
+  text-align: center;
+  padding: 35px 20px;
+  border-radius: 8px;
+  margin: 40px 0px;
+}
+
+/* Forms layout */
+.form-card-box {
+  width: 100%;
+  max-width: 480px;
+  margin: 30px auto;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Two Column Layout (Contact & About) */
+.two-column-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.column-half {
+  width: 48%;
+}
+
+.column-half img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Footer */
+.custom-footer {
+  background-color: #212529;
+  color: #cccccc;
+  padding: 40px 0px 20px 0px;
+  margin-top: 50px;
+}
+
+.footer-inner {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-col {
+  width: 30%;
+}
+
+.footer-col h4 {
+  color: #ffffff;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-col ul li {
+  margin-bottom: 6px;
+}
+
+.footer-col a {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-col a:hover {
+  color: #ffffff;
+}
+
+.copyright-text {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #444444;
+  margin-top: 25px;
+  font-size: 13px;
+}
+
+/* ========================================================
+   MEDIA QUERIES (1200px, 992px, 576px, 390px)
+   ======================================================== */
+
+@media (max-width: 1200px) {
+  .content-area {
+    width: 92%;
+  }
+}
+
+@media (max-width: 992px) {
+  .item-card-3 {
+    width: 48%;
+    margin-bottom: 15px;
+  }
+  .item-card-4 {
+    width: 48%;
+    margin-bottom: 15px;
+  }
+  .cat-card {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .item-card-3,
+  .item-card-4,
+  .footer-col,
+  .column-half {
+    width: 100%;
+  }
+  .cat-card {
+    width: 47%;
+  }
+  .two-column-box {
+    flex-direction: column;
+  }
+  .hero-box h1 {
+    font-size: 24px;
+  }
+  .search-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero-box h1 {
+    font-size: 20px;
+  }
+  .cat-card img {
+    width: 50px;
+    height: 50px;
+  }
+  .cat-card {
+    padding: 10px 0px;
+  }
+  .promo-box h2 {
+    font-size: 20px;
+  }
+}

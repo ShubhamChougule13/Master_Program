@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodHub - Contact Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Bootstrap Navbar with Centered Links -->
+  <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm sticky-top">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand" href="index.html">FoodHub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navContent">
+        <!-- Changed me-auto to mx-auto here -->
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active fw-bold" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="restaurants.html">Restaurants</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="offers.html">Offers</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="d-flex gap-2">
+          <a href="login.html" class="btn btn-outline-danger btn-sm px-3">Login</a>
+          <a href="register.html" class="btn btn-danger btn-sm px-3">Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="content-area">
+    <h2 class="section-heading">Contact Us</h2>
+    
+    <div class="two-column-box">
+      <div class="column-half">
+        <h4>Information</h4>
+        <p class="text-muted small"><strong>Address:</strong> Rajarampuri 10 th lane,Near Lenskart , Kolhapur, Maharashtra</p>
+        <p class="text-muted small"><strong>Phone:</strong> +91 9890032325</p>
+        <p class="text-muted small"><strong>Email:</strong> support@foodhub.com</p>
+        <p class="text-muted small"><strong>Working Hours:</strong> 9:00 AM – 11:00 PM</p>
+      </div>
+
+      <div class="column-half">
+        <div class="card p-4 shadow-sm border-0">
+          <h5 class="mb-3">Send Us a Message</h5>
+          <form action="#" method="post">
+            <div class="mb-2">
+              <label class="form-label small fw-bold">Full Name</label>
+              <input type="text" class="form-control form-control-sm" placeholder="Your name" required>
+            </div>
+            <div class="mb-2">
+              <label class="form-label small fw-bold">Email Address</label>
+              <input type="email" class="form-control form-control-sm" placeholder="Your email" required>
+            </div>
+            <div class="mb-2">
+              <label class="form-label small fw-bold">Phone</label>
+              <input type="tel" class="form-control form-control-sm" placeholder="10-digit number" required>
+            </div>
+            <div class="mb-2">
+              <label class="form-label small fw-bold">Subject</label>
+              <input type="text" class="form-control form-control-sm" placeholder="Subject" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label small fw-bold">Message</label>
+              <textarea class="form-control form-control-sm" rows="3" placeholder="Write message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger btn-sm w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="custom-footer">
+    <div class="copyright-text">&copy; 2026 FoodHub. All Rights Reserved.</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
