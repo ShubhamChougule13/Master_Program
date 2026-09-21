@@ -1,0 +1,12 @@
+|Field|Type|Null|Key|Default|Extra|
+|---|---|---|---|---|---|
+|patient_id|int|YES||NULL||
+|patient_name|varchar(100)|YES||NULL||
+|age|int|YES||NULL||
+|gender|varchar(10)|YES||NULL||
+|phone|varchar(15)|YES||NULL||
+|disease|varchar(100)|YES||NULL||
+|admission_date|date|YES||NULL||
+|admission_time|time|YES||NULL||
+|doctor_name|varchar(100)|YES||NULL||
+|is_discharged|tinyint(1)|YES||NULL||
