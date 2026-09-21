@@ -1,0 +1,11 @@
+|Field|Type|Null|Key|Default|Extra|
+|---|---|---|---|---|---|
+|product_id|int|YES||NULL||
+|product_name|varchar(100)|YES||NULL||
+|category|varchar(50)|YES||NULL||
+|price|"decimal(10|2)"|YES||NULL||
+|quantity|int|YES||NULL||
+|description|varchar(255)|YES||NULL||
+|manufactured_date|date|YES||NULL||
+|is_available|tinyint(1)|YES||NULL||
+|brand|varchar(50)|YES||NULL||
