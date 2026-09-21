@@ -1,0 +1,10 @@
+|employee_id|employee_name|age|department|salary|email|joining_date|is_active|
+|---|---|---|---|---|---|---|---|
+|201|Shubham|25|Java|60000.00|shubham@gmail.com|2026-01-10|1|
+|202|Rahul|24|Python|55000.00|rahul@gmail.com|2026-01-15|1|
+|203|Priya|26|Testing|50000.00|priya@gmail.com|2026-02-01|1|
+|204|Amit|28|HR|45000.00|amit@gmail.com|2026-02-10|1|
+|205|Sneha|27|Finance|58000.00|sneha@gmail.com|2026-02-15|1|
+|206|Rohan|25|Sales|48000.00|rohan@gmail.com|2026-03-01|1|
+|207|Neha|23|Java|62000.00|neha@gmail.com|2026-03-10|1|
+|208|Vikas|29|Testing|52000.00|vikas@gmail.com|2026-03-15|0|
