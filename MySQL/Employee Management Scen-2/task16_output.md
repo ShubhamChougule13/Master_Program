@@ -1,0 +1,10 @@
+|Field|Type|Null|Key|Default|Extra|
+|---|---|---|---|---|---|
+|employee_id|int|YES||NULL||
+|employee_name|varchar(100)|YES||NULL||
+|age|int|YES||NULL||
+|department|varchar(50)|YES||NULL||
+|salary|"decimal(10|2)"|YES||NULL||
+|email|varchar(150)|YES||NULL||
+|joining_date|date|YES||NULL||
+|is_active|tinyint(1)|YES||NULL||
