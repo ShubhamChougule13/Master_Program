@@ -1,0 +1,17 @@
+|first_name|last_name|order_id|total_amount|
+|---|---|---|---|
+|Amit|Sharma|101|65000.00|
+|Priya|Patil|102|72000.00|
+|Sneha|Joshi|104|2500.00|
+|Neha|Kulkarni|106|79000.00|
+|Pooja|Shah|108|3500.00|
+|Kiran|Jadhav|110|42000.00|
+|Snehal|Pawar|111|65000.00|
+|Anjali|Singh|113|6200.00|
+|Komal|Kale|115|5500.00|
+|Nikhil|Rane|116|2800.00|
+|Vivek|Mishra|118|18000.00|
+|Arjun|Malhotra|120|3000.00|
+|Meera|Iyer|121|42000.00|
+|Divya|Reddy|123|8500.00|
+|Sameer|Khan|124|5500.00|

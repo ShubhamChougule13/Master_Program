@@ -1,0 +1,16 @@
+|first_name|last_name|order_date|
+|---|---|---|
+|Manish|Yadav|2026-02-03|
+|Anjali|Singh|2026-02-05|
+|Saurabh|More|2026-02-07|
+|Komal|Kale|2026-02-10|
+|Nikhil|Rane|2026-02-12|
+|Riya|Chavan|2026-02-15|
+|Vivek|Mishra|2026-02-17|
+|Swati|Nair|2026-02-20|
+|Arjun|Malhotra|2026-02-22|
+|Meera|Iyer|2026-02-25|
+|Kunal|Bhosale|2026-02-27|
+|Divya|Reddy|2026-03-01|
+|Sameer|Khan|2026-03-03|
+|Tanvi|Gawande|2026-03-05|

@@ -1,0 +1,15 @@
+|first_name|last_name|order_id|order_date|order_status|total_amount|payment_method|
+|---|---|---|---|---|---|---|
+|Amit|Sharma|101|2026-01-05|Delivered|65000.00|UPI|
+|Rahul|Verma|103|2026-01-10|Shipped|1200.00|UPI|
+|Neha|Kulkarni|106|2026-01-18|Delivered|79000.00|UPI|
+|Pooja|Shah|108|2026-01-22|Delivered|3500.00|UPI|
+|Akash|Gupta|109|2026-01-25|Pending|2200.00|UPI|
+|Snehal|Pawar|111|2026-02-01|Delivered|65000.00|UPI|
+|Anjali|Singh|113|2026-02-05|Delivered|6200.00|UPI|
+|Komal|Kale|115|2026-02-10|Delivered|5500.00|UPI|
+|Riya|Chavan|117|2026-02-15|Shipped|12000.00|UPI|
+|Swati|Nair|119|2026-02-20|Pending|15000.00|UPI|
+|Meera|Iyer|121|2026-02-25|Delivered|42000.00|UPI|
+|Divya|Reddy|123|2026-03-01|Delivered|8500.00|UPI|
+|Tanvi|Gawande|125|2026-03-05|Pending|2800.00|UPI|

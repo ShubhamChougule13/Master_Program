@@ -1,0 +1,13 @@
+|first_name|last_name|total_amount|
+|---|---|---|
+|Amit|Sharma|65000.00|
+|Priya|Patil|72000.00|
+|Rohan|Deshmukh|85000.00|
+|Neha|Kulkarni|79000.00|
+|Vikas|Mehta|65000.00|
+|Kiran|Jadhav|42000.00|
+|Snehal|Pawar|65000.00|
+|Riya|Chavan|12000.00|
+|Vivek|Mishra|18000.00|
+|Swati|Nair|15000.00|
+|Meera|Iyer|42000.00|

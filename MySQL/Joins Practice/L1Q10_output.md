@@ -1,0 +1,15 @@
+|customer_id|first_name|last_name|city|State|
+|---|---|---|---|---|
+|1|Amit|Sharma|Pune|Maharashtra|
+|2|Priya|Patil|Mumbai|Maharashtra|
+|4|Sneha|Joshi|Nashik|Maharashtra|
+|5|Rohan|Deshmukh|Nagpur|Maharashtra|
+|6|Neha|Kulkarni|Pune|Maharashtra|
+|10|Kiran|Jadhav|Pune|Maharashtra|
+|11|Snehal|Pawar|Kolhapur|Maharashtra|
+|14|Saurabh|More|Aurangabad|Maharashtra|
+|15|Komal|Kale|Pune|Maharashtra|
+|16|Nikhil|Rane|Thane|Maharashtra|
+|17|Riya|Chavan|Satara|Maharashtra|
+|22|Kunal|Bhosale|Pune|Maharashtra|
+|25|Tanvi|Gawande|Amravati|Maharashtra|
