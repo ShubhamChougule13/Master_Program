@@ -1,0 +1,15 @@
+|first_name|last_name|product_id|
+|---|---|---|
+|Amit|Sharma|1|
+|Priya|Patil|4|
+|Sneha|Joshi|8|
+|Rohan|Deshmukh|3|
+|Neha|Kulkarni|5|
+|Kiran|Jadhav|12|
+|Snehal|Pawar|13|
+|Saurabh|More|18|
+|Komal|Kale|19|
+|Nikhil|Rane|20|
+|Riya|Chavan|21|
+|Kunal|Bhosale|14|
+|Tanvi|Gawande|20|

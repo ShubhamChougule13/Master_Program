@@ -1,0 +1,17 @@
+|first_name|last_name|city|order_id|product_id|
+|---|---|---|---|---|
+|Amit|Sharma|Pune|101|1|
+|Priya|Patil|Mumbai|102|4|
+|Sneha|Joshi|Nashik|104|8|
+|Neha|Kulkarni|Pune|106|5|
+|Pooja|Shah|Surat|108|10|
+|Kiran|Jadhav|Pune|110|12|
+|Snehal|Pawar|Kolhapur|111|13|
+|Anjali|Singh|Delhi|113|17|
+|Komal|Kale|Pune|115|19|
+|Nikhil|Rane|Thane|116|20|
+|Vivek|Mishra|Bhopal|118|22|
+|Arjun|Malhotra|Chandigarh|120|24|
+|Meera|Iyer|Chennai|121|25|
+|Divya|Reddy|Hyderabad|123|16|
+|Sameer|Khan|Bengaluru|124|19|

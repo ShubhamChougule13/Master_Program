@@ -1,0 +1,13 @@
+|first_name|last_name|email|order_date|item_total|
+|---|---|---|---|---|
+|Amit|Sharma|amit@gmail.com|2026-01-05|73125.00|
+|Priya|Patil|priya@gmail.com|2026-01-08|81000.00|
+|Rohan|Deshmukh|rohan@gmail.com|2026-01-15|90270.00|
+|Neha|Kulkarni|neha@gmail.com|2026-01-18|88955.00|
+|Vikas|Mehta|vikas@gmail.com|2026-01-20|73125.00|
+|Kiran|Jadhav|kiran@gmail.com|2026-01-27|47124.00|
+|Snehal|Pawar|snehal@gmail.com|2026-02-01|73125.00|
+|Riya|Chavan|riya@gmail.com|2026-02-15|13452.00|
+|Vivek|Mishra|vivek@gmail.com|2026-02-17|20178.00|
+|Swati|Nair|swati@gmail.com|2026-02-20|17700.00|
+|Meera|Iyer|meera@gmail.com|2026-02-25|47124.00|

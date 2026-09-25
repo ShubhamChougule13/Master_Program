@@ -1,0 +1,17 @@
+|order_id|category|item_total|
+|---|---|---|
+|101|Laptop|73125.00|
+|102|Mobile|81000.00|
+|104|Accessories|2950.00|
+|106|Mobile|88955.00|
+|108|Wearable|4130.00|
+|110|Tablet|47124.00|
+|111|Tablet|73125.00|
+|113|Storage|7316.00|
+|115|Audio|6180.00|
+|116|Audio|3304.00|
+|118|Monitor|20178.00|
+|120|Networking|3540.00|
+|121|Television|47124.00|
+|123|Storage|10030.00|
+|124|Audio|6490.00|

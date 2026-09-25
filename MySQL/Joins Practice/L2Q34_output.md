@@ -1,0 +1,16 @@
+|first_name|last_name|order_date|product_id|unit_price|
+|---|---|---|---|---|
+|Manish|Yadav|2026-02-03|16|8500.00|
+|Anjali|Singh|2026-02-05|17|6200.00|
+|Saurabh|More|2026-02-07|18|3200.00|
+|Komal|Kale|2026-02-10|19|5500.00|
+|Nikhil|Rane|2026-02-12|20|2800.00|
+|Riya|Chavan|2026-02-15|21|12000.00|
+|Vivek|Mishra|2026-02-17|22|18000.00|
+|Swati|Nair|2026-02-20|23|15000.00|
+|Arjun|Malhotra|2026-02-22|24|3000.00|
+|Meera|Iyer|2026-02-25|25|42000.00|
+|Kunal|Bhosale|2026-02-27|14|3500.00|
+|Divya|Reddy|2026-03-01|16|8500.00|
+|Sameer|Khan|2026-03-03|19|5500.00|
+|Tanvi|Gawande|2026-03-05|20|2800.00|
